@@ -6,6 +6,16 @@ const app = new Vue({
     image: "./assets/vmSocks-green-onWhite.jpg",
     image_alt: "green socks with Vue logo",
     inStock: true,
-    details: ["80% cotton", "20% polyester", "Gender-neutral"]
+    details: ["80% cotton", "20% polyester", "Gender-neutral"],
+    variants: [
+      {
+        variantId: 2234,
+        variantColor: "green"
+      },
+      {
+        variantId: 2235,
+        variantColor: "blue"
+      }
+    ]
   }
 });
